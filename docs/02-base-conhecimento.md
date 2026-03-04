@@ -4,7 +4,7 @@
 
 Descreva se usou os arquivos da pasta `data`, por exemplo:
 
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Para que serve no Agente |
 |---------|---------|---------------------|
 | `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
 | `perfil_investidor.json` | JSON | Personalizar recomendações |
@@ -20,7 +20,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+Não modifiquei e nem expandi quaisquer dados mockados ou fictícios
 
 ---
 
@@ -29,12 +29,12 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+Inserindo dados pelo próprio prompt ou carregando arquivos json/csv
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+Os dados são consultados dinamicamente
 
 ---
 
@@ -42,7 +42,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Mostre um exemplo de como os dados são formatados para o agente.
 
-```
+
 Dados do Cliente:
 - Nome: João Silva
 - Perfil: Moderado
@@ -51,5 +51,4 @@ Dados do Cliente:
 Últimas transações:
 - 01/11: Supermercado - R$ 450
 - 03/11: Streaming - R$ 55
-...
-```
+
