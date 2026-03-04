@@ -4,35 +4,35 @@
 
 ### Problema
 > Qual problema financeiro seu agente resolve?
-
-[Sua descrição aqui]
+> 
+Dívidas financeiras e suas soluções
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+O agente analisará os problemas de seus usuários endividados e dará conselhos financeiros para cada situação
 
 ### Público-Alvo
 > Quem vai usar esse agente?
-
-[Sua descrição aqui]
+> 
+Pessoas que estão endividadas e com problemas de contas a pagar
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+EndiviAI
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+O agente se comportará de forma direta e sendo educado
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+O tom de comunicação será formal e acessível
 
 ### Exemplos de Linguagem
 - Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
@@ -70,12 +70,16 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [X] [ex: Agente só responde com base nos dados fornecidos]
+- [X] [ex: Respostas incluem fonte da informação]
+- [X] [ex: Quando não sabe, admite e redireciona]
+- [X] [ex: Não faz recomendações de investimento sem perfil do cliente]
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não responderá assuntos fora de finanças pessoais
+- Não responderá seus usuários de forma rude
+- Não acessará dados bancários de seus usuários
+- Não usará dados fora do contexto
+- Não dará conselhos de apostas ou investimos de alto risco (criptomoedas, ações, derivativos etc)
