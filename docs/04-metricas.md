@@ -29,7 +29,7 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [X] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [X] Incorreto -- EndivAI disse que gastei R$394,90 com alimentação, sendo que deveria ser R$ 570,00, apesar de que ele acertou o quanto gastei em supermercado e restaurante
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
